@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.content-container {
+    width: 100%;
+    height: calc(100% - 40px);
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.content-box {}
+
+.paginationContainer {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.searchLabel {
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.searchSelect {
+    width: 120px;
+    margin-right: 15px;
+}

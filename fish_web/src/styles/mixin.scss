@@ -1,0 +1,63 @@
+@mixin border-1px($position, $border-color: #e0e0e0) {
+    position: relative;
+    %common {
+        content: '';
+        position: absolute;
+        border-#{$position}: 1px solid $border-color;
+    }
+    @if $position == 'top' {
+        ::before {
+            @extend %common;
+            left: 0;
+            top: 0;
+            width: 100%;
+            transform-origin: left top;
+            transform: scaleY(0.5);
+        }
+    } @else if $position == 'left'{
+        ::before {
+            @extend %common;
+            left: 0;
+            top: 0;
+            height: 100%;
+            transform-origin: left top;
+            transform: scaleX(0.5);
+        }
+    } @else if $position == 'right' {
+        ::after {
+            @extend %common;
+            right: 0;
+            bottom: 0;
+            height: 100%;
+            transform-origin: right top;
+            transform: scaleX(0.5);
+        }
+    } @else {
+        ::after {
+            right : 0;
+            bottom: 0;
+            width: 100%;
+            transform-origin: left bottom;
+            transform: scaleY(0.5);
+        }
+        @extend %common;
+    }
+}
+
+// bem
+@mixin e($element, $content) {
+    &__#{$element} {
+        @each $k, $v in $content {
+            #{$k}: $v
+        }
+    }
+}
+
+@mixin m($modifier, $content) {
+    &--#{$modifier} {
+        @each $k, $v in $content {
+            #{$k}: $v
+        }
+    }
+}
+

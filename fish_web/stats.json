@@ -1,0 +1,63 @@
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from ./dist
+[34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: /
+[34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: /
+[34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: /
+Webpack Bundle Analyzer saved stats file to /Users/chen/Desktop/fishHookManagement/fish_web/dist/stats.json
+[34mℹ[39m [90m｢wdm｣[39m: assets by chunk 20.2 MiB (id hint: defaultVendors)
+  assets by status 4.92 MiB [big]
+    asset defaultVendors-node_modules_react-dom_cjs_react-dom_development_js.js 2.22 MiB [emitted] [big] (id hint: defaultVendors)
+    asset defaultVendors-node_modules_css-loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_postc-2b636f.js 1.61 MiB [emitted] [big] (id hint: defaultVendors)
+    asset defaultVendors-node_modules_sockjs-client_dist_sockjs_js.js 483 KiB [emitted] [big] (id hint: defaultVendors)
+    asset defaultVendors-node_modules_echarts_lib_core_echarts_js.js 222 KiB [emitted] [big] (id hint: defaultVendors)
+    asset defaultVendors-node_modules_echarts_lib_chart_custom_install_js.js 209 KiB [emitted] [big] (id hint: defaultVendors)
+    asset defaultVendors-node_modules_ant-design_icons_es_icons_ArrowLeftOutlined_js-node_modules_ant-d-db4f74.js 207 KiB [emitted] [big] (id hint: defaultVendors)
+  155 assets
+asset index~_.js 199 KiB [emitted] [big] (name: index~_)
+asset index~src_pages_Q.js 184 KiB [emitted] (name: index~src_pages_Q)
+asset index~src_pages_M.js 126 KiB [emitted] (name: index~src_pages_M)
+asset index~src_r.js 93.5 KiB [emitted] (name: index~src_r)
+asset runtime.js 47.7 KiB [emitted] (name: runtime)
+asset index.html 19.7 KiB [emitted]
+Entrypoint index [big] 20.8 MiB = 166 assets
+orphan modules 3.05 MiB [orphan] 2015 modules
+runtime modules 31.5 KiB 16 modules
+built modules 7.03 MiB [built]
+  modules by path ./node_modules/ 6.9 MiB 1288 modules
+  modules by path ./src/ 129 KiB
+    modules by path ./src/pages/ 101 KiB 59 modules
+    modules by path ./src/styles/ 10.7 KiB
+      modules by path ./src/styles/*.scss 2.85 KiB 2 modules
+      modules by path ./src/styles/*.css 7.8 KiB 2 modules
+    modules by path ./src/*.js 5.68 KiB 3 modules
+    modules by path ./src/hook.redux/*.js 4.27 KiB
+      ./src/hook.redux/global.js 3.02 KiB [built] [code generated]
+        4993 ms -> 1484 ms ->
+        3188 ms (resolving: 1340 ms, restoring: 0 ms, integration: 0 ms, building: 1848 ms, storing: 0 ms, additional resolving: 9 ms)
+      ./src/hook.redux/redux.helper.js 1.25 KiB [built] [code generated]
+        4993 ms -> 1484 ms -> 3188 ms ->
+        118 ms (resolving: 47 ms, restoring: 0 ms, integration: 0 ms, building: 71 ms, storing: 0 ms)
+    ./src/utils/help.js 7.87 KiB [built] [code generated]
+      4993 ms -> 1484 ms -> 3113 ms -> 410 ms ->
+      2889 ms (resolving: 1106 ms, restoring: 0 ms, integration: 0 ms, building: 1783 ms, storing: 0 ms, additional resolving: 648 ms)
+
+LOG from webpack.Compilation.ModuleProfile
+<i>  | 347 ms (parallelism 4.5) resolve to new modules > ./node_modules/querystring/index.js
+<i>  | 366 ms (parallelism 3) resolve to new modules > ./node_modules/react-dom/cjs/react-dom.development.js
+<w> 7966 ms resolve to new modules
+<e>  |  | 1744 ms (parallelism 2.7) build modules > ./src/index.js
+<i>  |  | 478 ms (parallelism 3.1) build modules > ./src/App.js
+<e>  | 3122 ms build modules > 29 x javascript/auto with ./node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!./node_modules/happypack/loader.js?id=happyBabel
+<i>  |  | 210 ms (parallelism 5) build modules > ./node_modules/html-entities/lib/xml-entities.js
+<i>  |  | 230 ms (parallelism 4.9) build modules > ./node_modules/html-entities/lib/html4-entities.js
+<i>  |  | 322 ms (parallelism 4.5) build modules > ./node_modules/html-entities/lib/html5-entities.js
+<w>  |  | 503 ms (parallelism 2) build modules > ./node_modules/querystring/index.js
+<w>  | 6973 ms build modules > 3318 x javascript/auto
+<i>  |  | 428 ms (parallelism 12) build modules > ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss
+<i>  | 1184 ms build modules > 11 x javascript/auto with ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js
+<e> 12344 ms build modules
++ 147 hidden lines
+
+webpack 5.37.0 compiled successfully in 31880 ms
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.

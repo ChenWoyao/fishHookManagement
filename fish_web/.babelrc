@@ -1,0 +1,8 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+            "corejs": "3",
+            "useBuiltIns": "usage" // 按需引入的写法
+        }], "@babel/preset-react"
+    ]
+}
