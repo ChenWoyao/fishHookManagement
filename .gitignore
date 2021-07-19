@@ -28,3 +28,26 @@ static
 sass/_sprite.scss
 stats.json
 
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/fish_client/node_modules
+/fish_client/npm-debug.log*
+/fish_client/yarn-error.log
+/fish_client/yarn.lock
+/fish_client/package-lock.json
+
+# production
+/fish_client/dist
+
+# misc
+.DS_Store
+
+# umi
+/fish_umi_web/src/.umi
+/fish_umi_web/src/.umi-production
+/fish_umi_web/src/.umi-test
+/fish_umi_web/.env.local
+
+/fish_client_copy
+/fish_server_test/node_modules

@@ -1,0 +1,19 @@
+{
+  "key": "value",
+  "name": "fish_server_test",
+  "version": "0.0.1",
+  "description": "项目描述...",
+  "main": "index.js",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "log4js": "^6.3.0",
+    "mongoose": "^5.11.18",
+    "request": "^2.88.2",
+    "uuid": "^8.3.2"
+  }
+}
